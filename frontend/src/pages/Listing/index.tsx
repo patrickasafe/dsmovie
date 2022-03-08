@@ -1,7 +1,7 @@
-const Listing = () => {
-  return (
-    <h1>Listing page</h1>
-  )
-}
+import Pagination from "components/Paginations";
 
-export default Listing
+const Listing = () => {
+  return <Pagination />;
+};
+
+export default Listing;
